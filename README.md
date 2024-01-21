@@ -10,7 +10,7 @@ The primary focus of this website is to demonstrate the implementation of a book
 ## Screenshots
 Explore the application through these screenshots highlighting the Booking functionality.
 
-![Little Lemon Restaurant Screenshot](./little-lemon-restaurant/src/images/little-lemon-restaurant.png.png?raw=true "Little Lemon Restaurant")
+![Little Lemon Restaurant Screenshot](../little-lemon-restaurant/src/images/little-lemon-restaurant.png.png?raw=true "Little Lemon Restaurant")
 
 ## Getting Started
 To get started with the Little Lemon Restaurant Website, follow these steps:
