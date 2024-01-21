@@ -42,8 +42,8 @@ function ReservationsForm(props) {
                             </div>
 
                             <div>
-                                <label htmlFor="reservation-guests">Number of Guests:</label>
-                                <input id='reservation-guests' min="1" value={guests} onChange={(e) => setGuests(e.target.value)} />
+                                <label htmlFor="reservation-guests">Nr. of Guests:</label>
+                                <input id="reservation-guests" type="number" min="1" value={guests} onChange={(e) => setGuests(e.target.value)} />
                             </div>
 
                             <div>
