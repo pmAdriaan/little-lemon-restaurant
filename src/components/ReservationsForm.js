@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function ReservationsForm() {
+function ReservationsForm(props) {
 
     const [date, setDate] = useState("");
     const [times, setTimes] = useState("");
@@ -10,7 +10,7 @@ function ReservationsForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.SubmitForm(e);
+        props.submitForm(e);
 
     }
 
