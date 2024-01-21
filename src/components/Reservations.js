@@ -1,7 +1,9 @@
-function Reservations() {
+import ReservationsForm from "./ReservationsForm";
+
+function Reservations(props) {
     return (
         <>
-            <h1>Reservations</h1>
+            <ReservationsForm availableTimes={props.availableTimes} dispatch={props.dispatch} SubmitForm={props.SubmitForm} />
         </>
     )
 }
